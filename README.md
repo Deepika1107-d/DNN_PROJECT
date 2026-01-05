@@ -32,3 +32,4 @@ python src/train_diffusion.py --mode diffusion --epochs 3 --t_steps 100
 Notes
 - Images are normalized to [-1, 1] at 128x128 by default.
 - Diffusion sampling is slower; use small subsets for quick evaluation.
+<img width="698" height="387" alt="Screenshot 2026-01-05 at 9 14 11 PM" src="https://github.com/user-attachments/assets/6c534642-216b-47ca-804c-505324c01dc1" />
