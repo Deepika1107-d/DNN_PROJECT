@@ -42,7 +42,17 @@ Notes
 * Similar to training data, the test set is **imbalanced**, but with overall lower sample counts.
 
 <img width="697" height="390" alt="Screenshot 2026-01-05 at 9 24 42 PM" src="https://github.com/user-attachments/assets/5235ff78-2693-4f29-a117-3ddcdcdaa920" />
+
+* The boxplot shows that **train and test sets have similar frame_count distributions**, with a median around **13 frames**.
+* Both sets exhibit a comparable spread and range (≈5 to 22), indicating **consistent data distribution** between training and testing.
+
 <img width="540" height="369" alt="Screenshot 2026-01-05 at 9 24 54 PM" src="https://github.com/user-attachments/assets/d97eef7b-b22d-4409-adc0-32c0f1b69300" />
+
+* This graph displays the dimensions of sampled image frames, revealing that every image has a constant **height of 240 pixels**.
+
+* In contrast, the **width varies** significantly across the samples, ranging from approximately 390 to 580 pixels.
+
+Would you like to explore why the widths vary while the height stays fixed (e.g., aspect ratio preservation)?
 <img width="536" height="392" alt="Screenshot 2026-01-05 at 9 25 07 PM" src="https://github.com/user-attachments/assets/11af0bfd-ae7d-4fa5-a321-bcedb8cc0a86" />
 <img width="693" height="390" alt="Screenshot 2026-01-05 at 9 25 19 PM" src="https://github.com/user-attachments/assets/4635671e-087c-4b93-8064-b69ef624cd3d" />
 <img width="695" height="391" alt="Screenshot 2026-01-05 at 9 26 12 PM" src="https://github.com/user-attachments/assets/679227cb-bdb7-4db0-8cea-bb7d8852e8df" />
